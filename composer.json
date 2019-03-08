@@ -1,0 +1,19 @@
+{
+    "name": "shahriar/cms",
+    "description": "SHahriar create cms for package",
+    "authors": [
+        {
+            "name": "shahriar PhlevanSadegh",
+            "email": "shahriarpahlevansadegh@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Shahriar\\Cms\\" : "src/"
+        }
+    },
+    "require": {
+        "Illuminate/Support" : "~5",
+        "caffeinated/flash" : "~2.0"
+    }
+}
